@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agrinho 2025 – Sustentabilidade e Alimentação Saudável</title>
+  <meta name="description" content="Agrinho 2025 – Sustentabilidade e Alimentação Saudável: celebrando a conexão entre o campo e a cidade com foco em consumo consciente, agricultura familiar e futuro sustentável.">
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f0f9f4; color:#333; line-height:1.6;}
+    nav {background:#2E7D32; position:fixed; top:0; width:100%; padding:10px; z-index:1000;}
+    nav ul {list-style:none; display:flex; justify-content:center; margin:0; padding:0;}
+    nav li {margin:0 15px;}
+    nav a {color:white; text-decoration:none; font-weight:bold;}
+    nav a:hover {text-decoration:underline;}
+    header {margin-top:50px; position:relative; text-align:center; color:white;}
+    header img {width:100%; height:300px; object-fit:cover; opacity:0.7;}
+    header .overlay {position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); text-shadow:2px 2px 4px rgba(0,0,0,.6);}
+    header h1 {font-size:2.5em; margin:0;}
+    header p {font-size:1.2em; margin:10px 0;}
+    main {max-width:1000px; margin:auto; padding:40px 20px;}
+    section {margin-bottom:60px;}
+    section h2 {color:#2E7D32; margin-bottom:20px;}
+    .cards {display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px;}
+    .card {background:white; border-radius:12px; box-shadow:0 4px 6px rgba(0,0,0,0.1); overflow:hidden; transition:transform 0.2s;}
+    .card:hover {transform:scale(1.03);}
+    .card img {width:100%; max-height:150px; object-fit:contain; background:white; border-radius:12px 12px 0 0; display:block; margin:auto;}
+    .card-content {padding:20px;}
+    footer {background:#2E7D32; color:white; text-align:center; padding:20px; margin-top:30px;}
+    #topBtn {display:none; position:fixed; bottom:20px; right:20px; background:#4CAF50; color:white; border:none; padding:12px 18px; border-radius:50%; cursor:pointer; font-size:18px;}
+    #topBtn:hover {background:#2E7D32;}
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#conexao">Conexão</a></li>
+      <li><a href="#como-contribuir">Como Contribuir</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" alt="Plantação sustentável">
+    <div class="overlay">
+      <h1>🌿 Agrinho 2025</h1>
+      <p>Festejando a Conexão Campo–Cidade</p>
+      <p><strong>Sustentabilidade e Alimentação Saudável</strong></p>
+    </div>
+  </header>
+
+  <main>
+    <section id="sobre">
+      <h2>🌱 Sobre o Projeto</h2>
+      <p>Este site foi criado como parte do Agrinho 2025, celebrando a conexão entre o campo e a cidade. Nosso subtema é <strong>Sustentabilidade e Alimentação Saudável</strong>, mostrando como a agricultura e os hábitos de consumo se complementam na construção de um futuro melhor.</p>
+    </section>
+
+    <section id="conexao">
+      <h2>🍅 A Conexão Campo–Cidade</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="card-content">
+            <h3>🚜 Produção Sustentável</h3>
+            <p>No campo, agricultores utilizam técnicas sustentáveis que preservam o meio ambiente e garantem alimentos de qualidade para todos.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" alt="Compras conscientes">
+          <div class="card-content">
+            <h3>🛒 Consumo Consciente</h3>
+            <p>Na cidade, escolhas de compra podem incentivar a agricultura familiar, reduzir desperdícios e valorizar alimentos saudáveis.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <h3>🎶 Cultura e Tradição</h3>
+            <p>As festas e tradições celebram a união entre campo e cidade, reforçando a importância da identidade cultural e da cooperação.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="como-contribuir">
+      <h2>🌍 Como Contribuir</h2>
+      <p>Cada pessoa pode ser parte dessa transformação. Pequenas ações fazem grande diferença:</p>
+      <ul>
+        <li>Dar preferência a alimentos locais e da estação.</li>
+        <li>Reduzir o desperdício de comida.</li>
+        <li>Valorizar os agricultores e a agricultura familiar.</li>
+        <li>Participar de iniciativas comunitárias de hortas urbanas.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>🌱 Projeto desenvolvido para o Agrinho 2025 – Tema: Festejando a Conexão Campo–Cidade</p>
+    <p><em>“Você pode cortar todas as flores, mas não pode impedir a primavera de chegar.” – Pablo Neruda</em></p>
+  </footer>
+
+  <button onclick="topFunction()" id="topBtn" title="Voltar ao topo">⬆</button>
+  <script>
+    const topBtn = document.getElementById("topBtn");
+    window.onscroll = function() {
+      if (document.documentElement.scrollTop > 100) {
+        topBtn.style.display = "block";
+      } else {
+        topBtn.style.display = "none";
+      }
+    };
+    function topFunction() { window.scrollTo({ top: 0, behavior: "smooth" }); }
+  </script>
+</body>
+</html>
