@@ -14,7 +14,7 @@ O site mostra como a relação entre **campo e cidade** é importante para garan
 
 ## 🖥️ Como visualizar
 Você pode acessar o site publicado pelo **GitHub Pages** neste link:  
-👉 [https://seu-usuario.github.io/agrinho-2025/](https://seu-usuario.github.io/agrinho-2025/)  
+👉 https://github.com/enrique044/AGRINHO-2025-SUSTENTABILIDADE.git  
 
 Ou, se quiser rodar localmente:  
 1. Baixe este repositório (botão verde **Code > Download ZIP**).  
